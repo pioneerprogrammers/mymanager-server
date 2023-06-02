@@ -60,6 +60,7 @@ fs.readdir("./routes", (err, files) => {
     console.log(`Server running on port ${PORT}`)
   );
 
+  
   // Socket connection
   const io = socket(server, {
     cors: {
